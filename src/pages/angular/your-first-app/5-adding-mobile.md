@@ -126,6 +126,7 @@ Storage.set({
 
             return photoCopy;
         }))
+});        
 ```
 
 Finally, a small change to `tab2.page.html` is required to support both web and mobile. If running the app on the web, the `base64` property will contain the photo data to display. If on mobile, the `webviewPath` will be used:
